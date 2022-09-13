@@ -8,7 +8,6 @@ Console.Clear();
 int n=1;
 Console.Write("введите целое число:");
 int num = Convert.ToInt32(Console.ReadLine());
-int factorial;
 for (int i=n;i<=num;i++) {
      if (i% 2==0) {
     Console.Write(i + ",");
